@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Python Modules and Packages</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            padding: 20px;
+            background-color: #f7f7f7;
+            color: #333;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background-color: #fff;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        h1 {
+            color: #007bff;
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        h2 {
+            color: #555;
+            margin-top: 30px;
+            margin-bottom: 10px;
+        }
+        p {
+            margin-bottom: 15px;
+            line-height: 1.6;
+        }
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        li {
+            margin-bottom: 20px;
+        }
+        code {
+            background-color: #f2f2f2;
+            padding: 2px 5px;
+            border-radius: 4px;
+        }
+        .example {
+            background-color: #f2f2f2;
+            padding: 10px;
+            border-radius: 6px;
+            margin-bottom: 15px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Python Modules and Packages</h1>
+        <p>Python comes with a rich collection of modules and packages that extend its functionality and make development easier. Here are some commonly used ones:</p>
+        
+        <h2>NumPy</h2>
+        <p>NumPy is essential for scientific computing in Python. It provides support for large, multi-dimensional arrays and matrices, along with a collection of mathematical functions to operate on these arrays. NumPy is widely used in fields such as physics, chemistry, engineering, and data science.</p>
+        <div class="example">
+            <code>import numpy as np</code><br>
+            <code>arr = np.array([1, 2, 3])</code><br>
+            <code>print(arr)</code>
+        </div>
+
+        <h2>Pandas</h2>
+        <p>Pandas is indispensable for data manipulation and analysis in Python. It offers data structures like DataFrame and Series, which are powerful tools for data wrangling, cleaning, and analysis. Pandas is extensively used in data science, finance, and business analytics.</p>
+        <div class="example">
+            <code>import pandas as pd</code><br>
+            <code>data = {'Name': ['John', 'Anna', 'Peter'], 'Age': [25, 30, 35]}</code><br>
+            <code>df = pd.DataFrame(data)</code><br>
+            <code>print(df)</code>
+        </div>
+
+        <h2>TensorFlow</h2>
+        <p>TensorFlow is a powerful open-source machine learning framework developed by Google. It provides tools for building and training deep neural networks, including convolutional neural networks (CNNs), recurrent neural networks (RNNs), and more. TensorFlow is widely used for various machine learning tasks such as image recognition, natural language processing, and reinforcement learning.</p>
+        <div class="example">
+            <code>import tensorflow as tf</code><br>
+            <code>model = tf.keras.Sequential([...])</code><br>
+            <code>model.compile(optimizer='adam', loss='sparse_categorical_crossentropy', metrics=['accuracy'])</code>
+        </div>
+        
+        <h2>Tkinter</h2>
+        <p>Tkinter is Python's standard GUI (Graphical User Interface) toolkit. It provides a fast and easy way to create desktop applications with graphical interfaces. Tkinter is beginner-friendly and comes with a wide range of widgets for creating buttons, labels, textboxes, and more.</p>
+        <div class="example">
+            <code>import tkinter as tk</code><br>
+            <code>root = tk.Tk()</code><br>
+            <code>label = tk.Label(root, text="Hello, Tkinter!")</code><br>
+            <code>label.pack()</code>
+        </div>
+        
+        <h2>Matplotlib</h2>
+        <p>Matplotlib is a comprehensive library for creating static, animated, and interactive visualizations in Python. It offers a wide range of plotting functions for creating line plots, scatter plots, bar plots, histograms, and more. Matplotlib is widely used in scientific computing, data analysis, and data visualization.</p>
+        <div class="example">
+            <code>import matplotlib.pyplot as plt</code><br>
+            <code>plt.plot([1, 2, 3, 4], [1, 4, 9, 16])</code><br>
+            <code>plt.xlabel('X-axis')</code><br>
+            <code>plt.ylabel('Y-axis')</code><br>
+            <code>plt.title('Simple Plot')</code><br>
+            <code>plt.show()</code>
+        </div>
+        
+        <h2>Scikit-learn (sklearn)</h2>
+        <p>Scikit-learn is a versatile machine learning library built on top of NumPy, SciPy, and Matplotlib. It provides simple and efficient tools for data mining and data analysis, including various supervised and unsupervised learning algorithms. Scikit-learn is widely used for tasks such as classification, regression, clustering, and dimensionality reduction.</p>
+        <div class="example">
+            <code>from sklearn.datasets import load_iris</code><br>
+            <code>from sklearn.model_selection import train_test_split</code><br>
+            <code>from sklearn.neighbors import KNeighborsClassifier</code><br>
+            <code>iris = load_iris()</code>
+        </div>
+        
+        <h2>Django</h2>
+        <p>Django is a high-level web framework written in Python that encourages rapid development and clean, pragmatic design. It follows the Model-View-Template (MVT) architectural pattern and provides built-in features for handling user authentication, database management, URL routing, and more. Django is widely used for building robust web applications and APIs.</p>
+        <div class="example">
+            <code>from django.shortcuts import render</code><br>
+            <code>from django.http import HttpRequest,HttpResponse</code><br>
+            <br>
+            <code>def home(request):</code><
+        
+    </div>
+</body>
+</html>

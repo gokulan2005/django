@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Hall List</title>
+</head>
+<body>
+    <h1>Hall List</h1>
+    <ul>
+        {% for hall in halls %}
+            <li>{{ hall.name }} (Capacity: {{ hall.capacity }})</li>
+        {% empty %}
+            <li>No halls available.</li>
+        {% endfor %}
+    </ul>
+    <a href="{% url 'add-hall' %}">Add Hall</a>
+</body>
+</html>

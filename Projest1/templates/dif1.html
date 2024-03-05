@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTTP vs HTTPS</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            padding: 20px;
+            background-color: #f7f7f7;
+            color: #333;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background-color: #fff;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        h1 {
+            color: #007bff;
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        p {
+            margin-bottom: 15px;
+            line-height: 1.6;
+        }
+        ul {
+            margin-bottom: 20px;
+        }
+        li {
+            margin-bottom: 10px;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+            border-radius: 5px;
+            overflow: hidden;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        th, td {
+            border: 1px solid #ddd;
+            padding: 10px;
+            text-align: left;
+        }
+        th {
+            background-color: #007bff;
+            color: #fff;
+        }
+        td {
+            background-color: #f2f2f2;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Difference Between HTTP and HTTPS</h1>
+        <p>HTTP (HyperText Transfer Protocol) and HTTPS (HyperText Transfer Protocol Secure) are protocols used for transferring data over the internet. The main difference between them lies in the level of security they provide:</p>
+        <ul>
+            <li><strong>HTTP:</strong> It is not secure as data is transmitted in plain text. This means that if intercepted, the information can be read by anyone.</li>
+            <li><strong>HTTPS:</strong> It provides a secure connection by encrypting the data exchanged between the client and the server. This encryption ensures that even if the data is intercepted, it cannot be easily read.</li>
+        </ul>
+        <p>Below is a comparison table highlighting the key differences:</p>
+        <table>
+            <tr>
+                <th>HTTP</th>
+                <th>HTTPS</th>
+            </tr>
+            <tr>
+                <td>Not Secure</td>
+                <td>Secure</td>
+            </tr>
+            <tr>
+                <td>Data is transmitted in plain text</td>
+                <td>Data is encrypted before transmission</td>
+            </tr>
+        </table>
+    </div>
+</body>
+</html>
